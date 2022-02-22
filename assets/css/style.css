@@ -1,0 +1,123 @@
+@import url(./variable.css);
+* {
+  font-family: var(--nunito);
+}
+.bg-white {
+  background-color: white !important;
+}
+.bg-black {
+  background-color: black;
+}
+.font-logo {
+  font-family: var(--fontLogo) !important;
+}
+.navbar .nav-link.active {
+  color: red !important;
+}
+.hamburger-menu {
+  display: none;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.hamburger-menu span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+section.hero-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-color: black; */
+}
+.hero-content .content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+}
+/* section.hero-content::after {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  inset: 0;
+  top: 15%;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: opacity(0.2);
+} */
+.hero-content #slideHeroContent {
+  position: absolute;
+  inset: 0;
+  top: 15%;
+  z-index: 2;
+  filter: opacity(0.2);
+}
+#slideHeroContent .carousel-inner,
+#slideHeroContent .carousel-inner .carousel-item,
+#slideHeroContent .carousel-inner .carousel-item img {
+  height: 100%;
+}
+footer .space-footer {
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+.to-top {
+  position: fixed;
+  bottom: -100%;
+  right: 12px;
+  z-index: 9999999999;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.to-top.show {
+  opacity: 1;
+  bottom: 12px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.my-border {
+  border-radius: 20px;
+}
+#sk .nav-pills .nav-link.active {
+  background-color: #dc3545 !important;
+}
+#sk .nav-pills .nav-link {
+  color: white !important;
+}
+#gallery .card-body .item {
+  font-size: 13px;
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 767.98px) {
+  .hamburger-menu {
+    display: flex;
+  }
+  .my-navbar .menus {
+    display: none;
+  }
+  .my-navbar a.logo {
+    width: 20%;
+  }
+}
+@media (max-width: 575.98px) {
+}
+
+/* @media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+} */

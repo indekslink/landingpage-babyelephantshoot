@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <!-- Fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- my style -->
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Baby Elephant Shoot</title>
+  </head>
+  <body>
+    <button class="to-top btn btn-danger btn-lg">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" alt="" width="50" />
+        </a>
+        <div
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          class="hamburger-menu"
+        >
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-md-5 ms-0 mt-5 mt-md-0">
+              <a href="#" class="btn btn-danger me-2">Login</a>
+              <a href="#" class="btn btn-outline-danger">Daftar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="hero-content" id="home">
+      <div class="container">
+        <div class="row content">
+          <div class="col-lg-7 col-12 text-dark text-md-start text-center">
+            <div class="display-1 fw-bold lh-sm mb-4 font-logo">
+              Baby Elephant Shoot
+            </div>
+
+            <div class="fs-3 mb-5 lh-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              perspiciatis.
+            </div>
+            <button class="btn btn-lg btn-danger py-3 px-4 learn-more">
+              Learn More
+            </button>
+          </div>
+
+          <div class="col-lg-5 col-12 d-md-block d-none text-center">
+            <img
+              src="./assets/images/Military_Monochromatic.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        id="slideHeroContent"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-pause="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/logo.png"
+              class="d-block mx-auto img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/gallery/6.jpeg"
+              class="d-block mx-auto img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/gallery/7.jpeg"
+              class="d-block mx-auto img-fluid"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#000000"
+        fill-opacity="1"
+        d="M0,32L80,80C160,128,320,224,480,229.3C640,235,800,149,960,128C1120,107,1280,149,1360,170.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+      ></path>
+    </svg>
+    <section class="py-5 bg-black text-light" id="about-us">
+      <div class="container">
+        <div class="display-3 mb-5 text-center fw-bold" data-aos="zoom-in">
+          <span class="border-danger border-bottom border-5 font-logo"
+            >About Us</span
+          >
+        </div>
+
+        <div class="row align-items-center overflow-hidden">
+          <div
+            class="col-lg-6 col-md-8 text-center"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            <img src="./assets/images/about-1.jpeg" alt="" class="img-fluid" />
+          </div>
+          <div
+            class="col-lg-6 col-12"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            <div class="text-center">
+              <p class="fs-1 fw-bold font-logo">Baby Elephant Shoot</p>
+              <p>
+                Adalah Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, voluptates!
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Necessitatibus obcaecati veniam, odio et ratione quos eos minus
+                nobis, laborum fuga autem. Laboriosam, eum ducimus obcaecati
+                reiciendis harum architecto minus excepturi!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#000000"
+        fill-opacity="1"
+        d="M0,32L80,80C160,128,320,224,480,229.3C640,235,800,149,960,128C1120,107,1280,149,1360,170.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+      ></path>
+    </svg>
+
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <div class="display-3 mb-5 text-center fw-bold" data-aos="zoom-in">
+          <span class="border-danger border-bottom border-5 font-logo"
+            >Gallery</span
+          >
+        </div>
+        <div class="row gy-4">
+          <div class="col-md-4 col-lg-3 col-6" data-aos="fade-up">
+            <div
+              data-id="menembak"
+              class="card cursor-pointer parent-lightbox my-border overflow-hidden shadow-sm border-0"
+            >
+              <a href="./assets/images/gallery/1.jpeg" data-fancybox="menembak">
+                <img
+                  src="./assets/images/gallery/1.jpeg"
+                  class="card-img-top"
+                />
+              </a>
+
+              <div class="card-body px-3">
+                <div class="fs-5 fw-bold text-center mb-2">Menembak</div>
+                <hr />
+                <div
+                  class="item d-flex justify-content-between align-items-center"
+                >
+                  <i class="fas fa-clock me-2"></i>
+                  <span>Diupload Kemarin</span>
+                </div>
+                <div
+                  class="item d-flex justify-content-between align-items-center"
+                >
+                  <i class="fas fa-th me-2"></i>
+                  <span>12 Item</span>
+                </div>
+              </div>
+            </div>
+            <div class="lightbox d-none" id="menembak">
+              <a href="./assets/images/gallery/2.jpeg"
+                ><img src="./assets/images/gallery/2.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/3.jpeg"
+                ><img src="./assets/images/gallery/3.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/4.jpeg"
+                ><img src="./assets/images/gallery/4.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/5.jpeg"
+                ><img src="./assets/images/gallery/5.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/8.jpeg"
+                ><img src="./assets/images/gallery/8.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/9.jpeg"
+                ><img src="./assets/images/gallery/9.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/10.jpeg"
+                ><img src="./assets/images/gallery/10.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/11.jpeg"
+                ><img src="./assets/images/gallery/11.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/12.jpeg"
+                ><img src="./assets/images/gallery/12.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/13.jpeg"
+                ><img src="./assets/images/gallery/13.jpeg" alt="" /></a
+              ><a href="./assets/images/gallery/14.jpeg"
+                ><img src="./assets/images/gallery/14.jpeg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#000000"
+        fill-opacity="1"
+        d="M0,192L80,181.3C160,171,320,149,480,149.3C640,149,800,171,960,154.7C1120,139,1280,85,1360,58.7L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+      ></path>
+    </svg>
+    <div id="services">
+      <section class="py-5 bg-black text-light">
+        <div class="container">
+          <div class="display-3 mb-5 text-center fw-bold" data-aos="zoom-in">
+            <span class="border-danger border-bottom border-5 font-logo"
+              >Registration Form</span
+            >
+          </div>
+          <div class="row mb-5 gy-4 justify-content-evenly">
+            <div class="col-md-4 col-lg-3 col-6">
+              <div
+                class="card bg-transparent overflow-hidden border-light my-border"
+                data-aos="flip-left"
+                data-aos-delay="100"
+              >
+                <img
+                  src="./assets/images/form/form-anggota.png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body px-3">
+                  <div class="fs-5 fw-bold text-center mb-3">Form Anggota</div>
+                  <a
+                    download
+                    href="./assets/materi/formulir-anggota.docx"
+                    class="btn btn-outline-light rounded-pill d-block w-100"
+                  >
+                    <i class="fas fa-download"></i>
+                    <span>Download</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-6">
+              <div
+                class="card bg-transparent overflow-hidden border-light my-border"
+                data-aos="flip-left"
+                data-aos-delay="200"
+              >
+                <img
+                  src="./assets/images/form/form-atlit.png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body px-3">
+                  <div class="fs-5 fw-bold text-center mb-3">Form Atlit</div>
+                  <a
+                    download
+                    href="./assets/materi/formulir-atlit.docx"
+                    class="btn btn-outline-light rounded-pill d-block w-100"
+                  >
+                    <i class="fas fa-download"></i>
+                    <span>Download</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-6">
+              <div
+                class="card bg-transparent overflow-hidden border-light my-border"
+                data-aos="flip-left"
+                data-aos-delay="300"
+              >
+                <img
+                  src="./assets/images/form/form-skku.png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body px-3">
+                  <div class="fs-5 fw-bold text-center mb-3">Form SKKU</div>
+                  <a
+                    download
+                    href="./assets/materi/formulir-skku.docx"
+                    class="btn btn-outline-light rounded-pill d-block w-100"
+                  >
+                    <i class="fas fa-download"></i>
+                    <span>Download</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sk" class="py-5 bg-black text-light">
+        <div class="container">
+          <div class="display-3 mb-5 text-center fw-bold" data-aos="zoom-in">
+            <span class="border-danger border-bottom border-5 font-logo"
+              >Terms and Conditions</span
+            >
+          </div>
+
+          <ul
+            class="nav nav-pills justify-content-center mb-3"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation" data-aos="fade-up">
+              <button
+                class="nav-link active"
+                id="pills-anggota-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-anggota"
+                type="button"
+                role="tab"
+                aria-controls="pills-anggota"
+                aria-selected="true"
+              >
+                Member of BES
+              </button>
+            </li>
+            <li
+              class="nav-item"
+              role="presentation"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <button
+                class="nav-link"
+                id="pills-atlit-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-atlit"
+                type="button"
+                role="tab"
+                aria-controls="pills-atlit"
+                aria-selected="false"
+              >
+                Atlit of BES
+              </button>
+            </li>
+          </ul>
+          <div
+            class="tab-content pt-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            id="pills-tabContent"
+          >
+            <div
+              class="tab-pane fade show active"
+              id="pills-anggota"
+              role="tabpanel"
+              aria-labelledby="pills-anggota-tab"
+            >
+              <div class="fs-3 text-center fw-bold mb-4">
+                SYARAT DAN KETENTUAN MENJADI ANGGOTA BABY ELEPHANT SHOOT DAN
+                KEPEMILIKAN SENJATA REPLIKA
+              </div>
+              <div class="font-logo text-center fs-5 mb-5">
+                <i>Airgun / Airsoftgun / Senapan Angin</i>
+              </div>
+              <ol type="1" class="m-0 ps-4">
+                <li class="py-2">Warga Negara Indonesia</li>
+                <li class="py-2">Berbadan Sehat Jasmani dan Rohani</li>
+                <li class="py-2">
+                  Tunduk dan Patuh terhadap Pancasia dan UUD 1945
+                </li>
+
+                <li class="py-2">
+                  Mematuhi semua peraturan perkumpulan Baby Elephant Shoot
+                </li>
+                <li class="py-2">
+                  Menyertakan SKCK dari Kepolisian RI yang masih berlaku
+                </li>
+                <li class="py-2">Mengisi Surat Pernyataan Diri</li>
+                <li class="py-2">Mengikuti latihan minimal 3x pertemuan</li>
+                <li class="py-2">Fotocopy KTP</li>
+                <li class="py-2">Foto diri 3x4</li>
+                <li class="py-2">
+                  Biaya Administrasi Kelas AA IPSC @ Rp. 350.000,- /-per bulan
+                  <ul class="m-0 ps-3">
+                    <li class="py-2">
+                      KTA Rp. 250.000,00 - Masa aktif 1 tahun
+                    </li>
+                    <li class="py-2">
+                      SKK Rp. 250.000,00 - Masa aktif 1 tahun
+                    </li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-atlit"
+              role="tabpanel"
+              aria-labelledby="pills-atlit-tab"
+            >
+              <div class="fs-3 text-center fw-bold mb-4">
+                SYARAT DAN KETENTUAN MENJADI ATLIT AAIPSC BABY ELEPHANT SHOOT
+              </div>
+              <div class="font-logo text-center fs-5 mb-5">
+                <i>Speck Unit Airsoftgun - kelas Tembak Reaksi</i>
+              </div>
+              <ol type="1" class="m-0 ps-4">
+                <li class="py-2">Warga Negara Indonesia</li>
+                <li class="py-2">Berbadan Sehat Jasmani dan Rohani</li>
+                <li class="py-2">
+                  Tunduk dan Patuh terhadap Pancasia dan UUD 1945
+                </li>
+
+                <li class="py-2">
+                  Mematuhi semua peraturan perkumpulan Baby Elephant Shoot
+                </li>
+                <li class="py-2">
+                  Menyertakan SKCK dari Kepolisian RI yang masih berlaku
+                </li>
+                <li class="py-2">Mengisi Surat Pernyataan Diri</li>
+                <li class="py-2">Fotocopy KTP</li>
+                <li class="py-2">Foto diri 3x4</li>
+                <li class="py-2">
+                  Administrasi Kelas AA IPSC @ Rp. 350.000,- /-per bulan
+                </li>
+              </ol>
+              <p class="ps-4 mb-0 py-2">Latihan sebulan 10 kali pertemuan</p>
+              <p class="ps-4 mb-0 py-2">Hari : Sabtu - Minggu - Senin</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#000000"
+        fill-opacity="1"
+        d="M0,192L80,181.3C160,171,320,149,480,149.3C640,149,800,171,960,154.7C1120,139,1280,85,1360,58.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+      ></path>
+    </svg>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="display-3 mb-5 text-center fw-bold mb-5" data-aos="zoom-in">
+          <span class="border-danger border-bottom border-5 font-logo"
+            >Contact Us</span
+          >
+        </div>
+
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 col-12 text-center">
+            <img
+              data-aos="fade-up"
+              src="./assets/images/contact-us.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-5 col-12">
+            <div
+              class="d-flex align-items-center py-3"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <i class="fab fa-whatsapp text-success me-2 fs-1"></i>
+              <span class="d-block lh-sm fs-3">0824*******</span>
+            </div>
+            <div
+              class="d-flex align-items-center py-3"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <i class="fab fa-facebook text-primary me-2 fs-1"></i>
+              <span class="d-block lh-sm fs-3">Lorem, ipsum dolor.</span>
+            </div>
+            <div
+              class="d-flex align-items-center py-3"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <i class="fab fa-instagram text-danger me-2 fs-1"></i>
+              <span class="d-block lh-sm fs-3">Lorem, ipsum dolor.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#000000"
+        fill-opacity="1"
+        d="M0,160L80,170.7C160,181,320,203,480,202.7C640,203,800,181,960,181.3C1120,181,1280,203,1360,213.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+      ></path>
+    </svg>
+    <footer class="bg-black text-light">
+      <div class="container">
+        <div class="row gy-4 py-3 justify-content-between">
+          <div class="col-lg-5">
+            <img src="./assets/images/about-1.jpeg" alt="" class="img-fluid" />
+            <div class="fs-1 text-center font-logo">Baby Elephant Shoot</div>
+          </div>
+          <div class="col-lg-5">
+            <div class="fs-1">Alamat</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a
+              numquam ab voluptate. Tempora, perspiciatis exercitationem.
+              Dolorem reprehenderit fugit vitae.
+            </p>
+          </div>
+        </div>
+        <div class="space-footer"></div>
+        <div class="copyright py-3 text-center">
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          , All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
