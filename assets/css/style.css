@@ -93,12 +93,27 @@ footer .space-footer {
 }
 #sk .nav-pills .nav-link.active {
   background-color: #dc3545 !important;
+  color: white !important;
 }
 #sk .nav-pills .nav-link {
-  color: white !important;
+  color: black !important;
 }
 #gallery .card-body .item {
   font-size: 13px;
+}
+.text-justify {
+  text-align: justify;
+}
+.section-visi {
+  border-radius: 50px 50% 50% 50px;
+}
+.section-misi {
+  border-radius: 50% 50px 50px 50%;
+}
+.why-must {
+  border: 5px dashed red;
+  padding: 3rem;
+  border-radius: 90px/30px;
 }
 @media (max-width: 991.98px) {
 }
@@ -114,6 +129,9 @@ footer .space-footer {
 /*  }*/
 /*}*/
 @media (max-width: 575.98px) {
+  .hero-content #slideHeroContent {
+    bottom: 40vmin !important;
+  }
 }
 
 /* @media (max-width: 1199.98px) {

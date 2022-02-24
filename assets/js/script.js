@@ -44,7 +44,7 @@ const activeMenu = (scroll) => {
     const href = menu.getAttribute("href");
     const section = document.querySelector(href);
     const offTop = section.offsetTop - 120;
-    const height = offTop + (section.clientHeight + 100);
+    const height = offTop + section.clientHeight;
     if (scroll > offTop && scroll < height) {
       const id = `#${section.getAttribute("id")}`;
       if (id == href) {
